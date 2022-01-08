@@ -1,0 +1,89 @@
+body{
+    background-image: url("pozadina.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header{
+    color: white;
+    background-color: rgba(28, 75, 236, 0.43);
+}
+
+.naslov{
+    color: white;
+    text-align: center;
+}
+.naslov h1{
+    font-size: 3em;
+}
+.navigacija ul li a{
+    font-size: 1.5em;
+    color: white;
+}
+
+.forma{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+}
+
+.naslovForma{
+    color: white;
+}
+
+.sadrzaj{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+#inputObjava{
+    height: 20vh;
+}
+
+.ulogovaniKorisnik{
+    margin-right: 20px;
+}
+
+.objave{
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 25px;
+    padding: 5px;
+}
+.objava{
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.objava-vreme{
+    font-size: 0.8em;
+}
+
+.objava-tekst{
+    font-size: 1.5em;
+}
+.naslov-komentari{
+    margin-left: 30px;
+    font-size: 1.5em;
+    color: white;
+}
+
+#pretraga{
+    width: 50%;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+
+
+
+
+
